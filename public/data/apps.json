@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "image": "/placeholders/example.png",
+    "title": "SuperNotes",
+    "companyName": "NoteCorp",
+    "description": "Fast note taking app with sync and markdown support.",
+    "size": 25,
+    "reviews": 1240,
+    "ratingAvg": 4.5,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 540 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "/placeholders/example.png",
+    "title": "FitTrack",
+    "companyName": "HealthLab",
+    "description": "Activity tracker, workouts and nutrition planning.",
+    "size": 40,
+    "reviews": 980,
+    "ratingAvg": 4.2,
+    "downloads": 90000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 480 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "/placeholders/example.png",
+    "title": "Pocket Painter",
+    "companyName": "Artly",
+    "description": "Simple drawing app with brushes and layers.",
+    "size": 55,
+    "reviews": 450,
+    "ratingAvg": 4.7,
+    "downloads": 45000,
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 35 },
+      { "name": "4 star", "count": 140 },
+      { "name": "5 star", "count": 260 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "/placeholders/example.png",
+    "title": "Easy Budget",
+    "companyName": "MoneyWise",
+    "description": "Budgeting and expense tracking.",
+    "size": 18,
+    "reviews": 2100,
+    "ratingAvg": 4.1,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 920 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "/placeholders/example.png",
+    "title": "PhotoCloud",
+    "companyName": "CloudSoft",
+    "description": "Photo backup and basic editor.",
+    "size": 80,
+    "reviews": 560,
+    "ratingAvg": 4.0,
+    "downloads": 80000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 170 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "/placeholders/example.png",
+    "title": "Daily Focus",
+    "companyName": "Focusly",
+    "description": "Pomodoro timer and productivity stats.",
+    "size": 10,
+    "reviews": 300,
+    "ratingAvg": 4.6,
+    "downloads": 30000,
+    "ratings": [
+      { "name": "1 star", "count": 4 },
+      { "name": "2 star", "count": 6 },
+      { "name": "3 star", "count": 30 },
+      { "name": "4 star", "count": 80 },
+      { "name": "5 star", "count": 180 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "/placeholders/example.png",
+    "title": "WeatherNow",
+    "companyName": "ClimaTech",
+    "description": "Fast weather forecasts and alerts.",
+    "size": 12,
+    "reviews": 1500,
+    "ratingAvg": 4.3,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 880 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "/placeholders/example.png",
+    "title": "RecipeBox",
+    "companyName": "KitchenPro",
+    "description": "Recipes, meal planner, and shopping list.",
+    "size": 22,
+    "reviews": 640,
+    "ratingAvg": 4.4,
+    "downloads": 72000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 370 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "/placeholders/example.png",
+    "title": "KidsLearn",
+    "companyName": "EduKids",
+    "description": "Educational games for kids.",
+    "size": 35,
+    "reviews": 410,
+    "ratingAvg": 4.2,
+    "downloads": 47000,
+    "ratings": [
+      { "name": "1 star", "count": 8 },
+      { "name": "2 star", "count": 12 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 120 },
+      { "name": "5 star", "count": 230 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "/placeholders/example.png",
+    "title": "Travelly",
+    "companyName": "Wayfarer",
+    "description": "Trip planner and offline maps.",
+    "size": 95,
+    "reviews": 890,
+    "ratingAvg": 4.0,
+    "downloads": 98000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "/placeholders/example.png",
+    "title": "SleepWell",
+    "companyName": "RestLabs",
+    "description": "Sleep sounds and tracking.",
+    "size": 28,
+    "reviews": 370,
+    "ratingAvg": 4.5,
+    "downloads": 36000,
+    "ratings": [
+      { "name": "1 star", "count": 6 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 100 },
+      { "name": "5 star", "count": 214 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "/placeholders/example.png",
+    "title": "TranslatorX",
+    "companyName": "LinguaTech",
+    "description": "Quick translations with offline packs.",
+    "size": 60,
+    "reviews": 1120,
+    "ratingAvg": 4.3,
+    "downloads": 110000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 620 }
+    ]
+  }
+]
