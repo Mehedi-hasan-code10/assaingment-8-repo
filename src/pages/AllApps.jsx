@@ -33,7 +33,8 @@ export default function AllApps() {
   };
 
   return (
-    <div>
+    <div className='w-11/12 mx-auto mt-16'>
+      {/*  */}
 
       <div className='mb-4 text-center'>
         <h1 className='text-3xl font-bold mb-4'>Our All Applications</h1>
@@ -65,7 +66,7 @@ export default function AllApps() {
        
         <div className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 ${loading ? 'opacity-50' : 'opacity-100'} transition-opacity`}>
           {filtered.length === 0 && !loading && (
-            <div className="p-8 text-center text-gray-500 col-span-full">
+            <div className="p-8 text-center text-gray-500 col-span-full text-4xl">
               No App Found
             </div>
           )}

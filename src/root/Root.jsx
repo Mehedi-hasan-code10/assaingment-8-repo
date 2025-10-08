@@ -28,7 +28,8 @@ export default function Root() {
     <div className="min-h-screen flex flex-col">
       <Header />
 
-      <main className="flex-1 container mx-auto px-4 py-6 relative">
+      {/* <main className="flex-1 container mx-auto px-4 py-6 relative"> */}
+       {/* <main className="flex-1 relative">
        
       
         <div
@@ -46,7 +47,25 @@ export default function Root() {
             <p className="mt-2 text-purple-600 font-semibold text-sm">Loading...</p>
           </div>
         )}
-      </main>
+      </main> */}
+
+      <div className='flex-1'>
+           <div
+          className={`transition-opacity duration-300 ${
+            loading ? 'opacity-30 pointer-events-none' : 'opacity-100'
+          }`}
+        >
+          <Outlet />
+        </div>
+     </div>
+
+        
+        {loading && (
+          <div className="absolute inset-0 flex flex-col items-center justify-center bg-white/60 backdrop-blur-sm rounded-lg">
+            <span className="loading loading-spinner loading-lg text-purple-700"></span>
+            <p className="mt-2 text-purple-600 font-semibold text-sm">Loading...</p>
+          </div>
+        )}
 
       <Footer />
     </div>

@@ -6,8 +6,9 @@ export default function AppCard({ app }) {
   return (
     <Link
       to={`/apps/${app.id}`}
+      // className="card flex bg-white justify-between shadow-lg p-3"
       className="card flex bg-white justify-between shadow-lg p-3"
-      // className="card flex flex-col  shadow hover:shadow-lg transition-shadow duration-200 p-3"
+      
     >
       
       <img

@@ -79,7 +79,7 @@ export default function Header() {
 
   return (
     <div className=' bg-base-100 shadow-sm '>
-      <div className="navbar bg-base-100  flex flex-wrap items-center justify-between flex-1 container mx-auto px-4">
+      <div className="navbar bg-base-100  flex flex-wrap items-center justify-between w-11/12 mx-auto">
       
       
       <div className="flex-1 flex items-center">

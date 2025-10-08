@@ -17,13 +17,13 @@ export default function Home() {
   const top8 = apps.slice(0, 8);
 
   return (
-    <div className="px-4 sm:px-6 lg:px-20 py-6">
+    <div className="">
 
 
       {/* Hero Section */}
 
 
-<section className=" p-8 sm:p-12 text-center mb-10">
+<section className=" text-center mb-10 mt-16">
   
   
   <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-800">
@@ -44,7 +44,7 @@ export default function Home() {
       target="_blank"
       rel="noreferrer"
       className="btn btn-outline px-6 sm:px-8 shadow-md"
-    >  <img src='/public/playstore-removebg-preview.png' className='w-8 h-8'></img>
+    >  <img src='/playstore-removebg-preview.png' className='w-8 h-8'></img>
       Play Store
           </a>
           
@@ -54,18 +54,18 @@ export default function Home() {
       rel="noreferrer"
       className="btn btn-outline px-6 sm:px-8 shadow-md"
           >
-            <img src='/public/app_store_2-removebg-preview.png' className='w-8 h-8'></img>
+            <img src='/app_store_2-removebg-preview.png' className='w-8 h-8'></img>
       App Store
     </a>
 
   </div>
 
   
-  <div className="mt-10 flex justify-center">
-    <img
+  <div className="mt-10 flex justify-center w-full">
+    <img 
       src="/hero.png"
       alt="App showcase"
-      className="w-64 sm:w-80 md:w-full rounded-xl drop-shadow-lg"
+      className="w-64 sm:w-80 lg:w-[900px] rounded-xl drop-shadow-lg"
     />
         </div>
         
@@ -73,7 +73,7 @@ export default function Home() {
        
 
         <div className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] w-full flex justify-center items-center
-          flex-col text-white min-h-[300px] space-y-6 max-sm:p-5">
+          flex-col text-white min-h-[300px] space-y-6">
         <h1 className="text-3xl font-bold text-center">
           Trusted by Millions, Built for You
         </h1>
@@ -110,7 +110,7 @@ export default function Home() {
           </div>
 
       
-      <section>
+      <section className=' w-11/12 mx-auto'>
        
 
        
