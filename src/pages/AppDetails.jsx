@@ -120,7 +120,7 @@ export default function AppDetails() {
 </div> */}
         
 
-<div className="mt-10 border rounded-xl shadow-sm bg-white">
+<div className="mt-10  rounded-xl shadow-sm bg-white">
 
   <hr className="border-gray-300 mb-4" />
 
@@ -133,7 +133,7 @@ export default function AppDetails() {
       <BarChart
         data={chartData}
         layout="vertical"
-        margin={{ top: 0, right: 30, left: 0, bottom: 0 }} // ← left=0
+        margin={{ top: 0, right: 30, left: 0, bottom: 0 }} 
       >
         <XAxis type="number" />
         <YAxis
@@ -166,7 +166,7 @@ export default function AppDetails() {
         <div className="">
           <hr className='text-gray-400'></hr>
           <h3 className="font-semibold text-2xl mb-2">Description</h3>
-          <p className="text-sm text-gray-700 leading-relaxed">{app.description}</p>
+          <p className="text-md font-medium  text-gray-700 leading-relaxed ">{app.description}</p>
         </div>
       </div>
     </div>
