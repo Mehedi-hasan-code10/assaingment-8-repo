@@ -7,7 +7,7 @@ export default function RootError(){
   return (
     <div className="p-16 text-center w-full h-full flex flex-col justify-center items-center">
       {/* <h1 className="text-3xl font-bold">Something went wrong</h1> */}
-      <img src='/src/assets/App-Error.png' alt="App Error" className="w-64 h-64 mx-auto mb-4" />
+      <img src='/App-Error.png' alt="App Error" className="w-64 h-64 mx-auto mb-4" />
       <p className="mt-4 font-bold text-3xl">Router error: {err.statusText || err.message || 'App Not Founded'}</p>
       <Link to="/" className="btn mt-6">Go Home</Link>
     </div>
