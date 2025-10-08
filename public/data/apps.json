@@ -183,12 +183,12 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg",
-    "title": "Microsoft Word: Edit Documents",
-    "companyName": "Microsoft Corporation",
-    "id": 11,
-    "description": "Microsoft Word is the industry-standard application for creating, editing, and sharing professional-quality documents. It provides a comprehensive set of tools for writing and formatting text, making it the go-to software for students, professionals, and writers. Whether you're drafting a simple letter, a complex academic paper, or a polished resume, Word offers the features you need to present your ideas clearly and effectively. Its familiar interface ensures that users can work efficiently and confidently.\n\nThe app's power lies in its rich feature set for document creation. It includes a wide range of templates to get you started quickly, along with advanced formatting options for fonts, paragraphs, and page layouts. Key features include real-time collaboration, allowing multiple users to work on a document simultaneously, and a robust commenting and change-tracking system for easy reviewing. Integration with OneDrive cloud storage means your documents are saved automatically and accessible from any device.\n\nFor anyone who works with written documents, Microsoft Word is an essential tool. It simplifies the process of writing, editing, and formatting, allowing you to focus on your content while producing a professional-looking result. Its versatility makes it suitable for any task, from a one-page memo to a full-length book. Word is the trusted choice for creating polished, impactful, and error-free documents.",
-    "size": 125,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Shazam_icon.svg/2048px-Shazam_icon.svg.png",
+    "title": "Shazam: Find Music",
+    "companyName": "Apple Inc.",
+    "id": 27,
+    "description": "Shazam is a magical app that can identify almost any song playing in your environment in just a few seconds. It answers the common question, 'What's that song?' with incredible speed and accuracy. By simply opening the app and letting it listen, you can discover the title, artist, and lyrics of the music around you. It's an essential tool for music lovers and anyone who is curious about the soundtrack of their world, from songs on the radio to music in a cafe or movie.\n\nA key feature of Shazam is its deep integration with major music streaming services. Once a song is identified, you can instantly open it in Spotify or Apple Music to listen to the full track, add it to a playlist, or watch the music video on YouTube. The app keeps a history of all your Shazams, so you can always revisit the songs you've discovered. It even works offline by saving a digital fingerprint of the audio and identifying it once you're back online.\n\nFor music discovery, Shazam is an unparalleled tool. It instantly connects you with the music you hear and want to remember, bridging the gap between passive listening and active engagement. By making song identification effortless, the app helps you build your music library and explore new artists. It's a must-have utility for anyone who loves music and never wants to let a great song slip away.",
+    "size": 40,
     "reviews": 68,
     "ratingAvg": 4.5,
     "downloads":3,
