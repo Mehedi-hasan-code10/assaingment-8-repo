@@ -79,9 +79,9 @@ export default function AppDetails() {
               <hr className='mt-12 mb-12'></hr>
             
               <div className="flex flex-wrap gap-6 text-gray-700 text-sm mb-4">
-                <div className='font-bold space-y-2'><img src='/public/icon-downloads.png' className='w-6 h-6 items-center'></img> Downloads <br></br> <span className="font-semibold">{app.downloads.toLocaleString()}</span>M</div>
-                <div className='font-bold space-y-2'><img src='/public/icon-ratings.png' className='w-6 h-6'></img>Average Rating <br></br> <span className="font-semibold">{app.ratingAvg}</span> </div>
-                <div className='font-bold space-y-2'><img src='/public/icon-review.png' className='w-6 h-6'></img>  Reviews <br></br> <span className="font-semibold">{app.reviews}</span>K</div>
+                <div className='font-bold space-y-2'><img src='/icon-downloads.png' className='w-6 h-6 items-center'></img> Downloads <br></br> <span className="font-semibold">{app.downloads.toLocaleString()}</span>M</div>
+                <div className='font-bold space-y-2'><img src='/icon-ratings.png' className='w-6 h-6'></img>Average Rating <br></br> <span className="font-semibold">{app.ratingAvg}</span> </div>
+                <div className='font-bold space-y-2'><img src='/icon-review.png' className='w-6 h-6'></img>  Reviews <br></br> <span className="font-semibold">{app.reviews}</span>K</div>
               </div>
 
               <button

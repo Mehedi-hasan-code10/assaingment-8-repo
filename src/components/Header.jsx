@@ -79,12 +79,12 @@ export default function Header() {
 
   return (
     <div className=' bg-base-100 shadow-sm '>
-      <div className="navbar bg-base-100  px-4 flex flex-wrap items-center justify-between flex-1 container mx-auto px-4">
+      <div className="navbar bg-base-100  flex flex-wrap items-center justify-between flex-1 container mx-auto px-4">
       
       
       <div className="flex-1 flex items-center">
         <NavLink to="/" className="btn btn-ghost normal-case md:text-xl text-purple-600 flex items-center gap-2 text-xs ">
-          <img className="w-12 h-12" src="/public/logo.png" alt="Logo" />
+          <img className="w-12 h-12" src="/logo.png" alt="Logo" />
           HERO.IO
         </NavLink>
       </div>
@@ -118,7 +118,7 @@ export default function Header() {
           href="https://github.com/Mehedi-hasan-code10"
           target="_blank"
           rel="noreferrer"
-        > <img className='w-8 h-8 mr-1' src="/public/github-removebg-preview.png" />
+        > <img className='w-8 h-8 mr-1' src="/github-removebg-preview.png" />
           Contribute
         </a>
       </div>
