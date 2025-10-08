@@ -1,6 +1,4 @@
 
-
-
 import React, { useEffect, useState } from 'react';
 import AppCard from '../components/AppCard';
 import { Link } from 'react-router-dom';
@@ -20,49 +18,94 @@ export default function Home() {
 
   return (
     <div className="px-4 sm:px-6 lg:px-20 py-6">
+
+
       {/* Hero Section */}
-      {/* <section className="hero bg-base-200 rounded-lg p-10 text-center mb-10">
-        <h1 className="text-3xl sm:text-4xl font-bold">Discover Great Apps</h1>
-        <p className="mt-2 text-sm sm:text-base">Find the best apps for productivity, health, art and more.</p>
-        <div className="mt-4 flex justify-center gap-4 flex-wrap">
-          <a href="https://apps.apple.com" target="_blank" rel="noreferrer" className="btn btn-primary">
-            App Store
-          </a>
-          <a href="https://play.google.com" target="_blank" rel="noreferrer" className="btn btn-outline">
-            Play Store
-          </a>
-        </div>
-      </section> */}
-          
-          <section className="hero bg-base-200 rounded-lg p-6 sm:p-10 text-center mb-10">
-  <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">
-    Discover Great Apps
+
+
+<section className=" p-8 sm:p-12 text-center mb-10">
+  
+  
+  <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-800">
+    We Build<br></br>
+<span className='text-purple-600'>Productive</span> Apps
   </h1>
-  <p className="mt-2 text-sm sm:text-base md:text-lg">
-    Find the best apps for productivity, health, art and more.
+
+  
+        <p className="mt-4 text-gray-600 text-base sm:text-lg md:text-xl max-w-3xl mx-auto">
+          
+    we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.ur goal is to turn your ideas into digital experiences that truly make an impact
   </p>
-  <div className="mt-4 flex justify-center gap-3 sm:gap-4 flex-wrap">
-    <a
-      href="https://apps.apple.com"
-      target="_blank"
-      rel="noreferrer"
-      className="btn btn-primary px-4 sm:px-6"
-    >
-      App Store
-    </a>
-    <a
+
+ 
+        <div className="mt-6 flex justify-center gap-4 flex-wrap">
+              <a
       href="https://play.google.com"
       target="_blank"
       rel="noreferrer"
-      className="btn btn-outline px-4 sm:px-6"
-    >
+      className="btn btn-outline px-6 sm:px-8 shadow-md"
+    >  <img src='/public/playstore-removebg-preview.png' className='w-8 h-8'></img>
       Play Store
+          </a>
+          
+    <a 
+      href="https://apps.apple.com"
+      target="_blank"
+      rel="noreferrer"
+      className="btn btn-outline px-6 sm:px-8 shadow-md"
+          >
+            <img src='/public/app_store_2-removebg-preview.png' className='w-8 h-8'></img>
+      App Store
     </a>
+
   </div>
+
+  
+  <div className="mt-10 flex justify-center">
+    <img
+      src="/hero.png"
+      alt="App showcase"
+      className="w-64 sm:w-80 md:w-full rounded-xl drop-shadow-lg"
+    />
+        </div>
+        
+
+       
+
+        <div className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] w-full flex justify-center items-center
+          flex-col text-white min-h-[300px] space-y-6 max-sm:p-5">
+        <h1 className="text-3xl font-bold text-center">
+          Trusted by Millions, Built for You
+        </h1>
+
+        <div className="flex space-x-30 max-sm:space-x-0 max-sm:space-y-10  text-center max-sm:flex-col">
+          <div className="space-y-1">
+            <h1 className="text-sm text-gray-300">Total DOwnloads</h1>
+            <h1 className="font-bold text-4xl">19.6M</h1>
+            <h1 className="text-sm text-gray-300">21% More Than Last Month</h1>
+          </div>
+          <div className="space-y-1">
+            <h1 className="text-sm text-gray-300">Total Reviews</h1>
+            <h1 className="font-bold text-4xl">906K</h1>
+            <h1 className="text-sm text-gray-300">46% more than last month</h1>
+          </div>
+          <div className="space-y-1">
+            <h1 className="text-sm text-gray-300">Active Apps</h1>
+            <h1 className="font-bold text-4xl">132+</h1>
+            <h1 className="text-sm text-gray-300">31 more will Launch</h1>
+          </div>
+        </div>
+      </div>
+
 </section>
 
+
+
+
+
+
           <div className="text-center mb-6">
-              <h1 className="text-2xl font-bold mb-4">Trending Apps</h1>
+              <h1 className="text-4xl font-bold mb-4">Trending Apps</h1>
               <p className='text-gray-400'>Explore All Trending Apps on the Market developed by us</p>
           </div>
 
@@ -85,3 +128,4 @@ export default function Home() {
     </div>
   );
 }
+
