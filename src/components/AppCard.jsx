@@ -25,7 +25,7 @@ export default function AppCard({ app }) {
         <h2 className="text-sm font-semibold mb-3">{app.title}</h2>
          <div className="flex justify-between text-xs">
         
-        <span className="bg-gray-200 rounded-md px-2 py-1 flex justify-between gap-1 text-green-600 "> <img src='/public/icon-downloads.png' className='w-4 h-4'></img>
+        <span className="bg-gray-200 rounded-md px-2 py-1 flex justify-between gap-1 text-green-600 "> <img src='/icon-downloads.png' className='w-4 h-4'></img>
           {app.downloads.toLocaleString()}M
         </span>
         <span className="flex items-center gap-1 bg-yellow-400/30 rounded-md px-2 py-1 backdrop-blur-sm">
