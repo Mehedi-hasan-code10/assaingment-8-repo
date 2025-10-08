@@ -3,6 +3,7 @@
 
 import React, { useEffect, useState } from 'react';
 import AppCard from '../components/AppCard';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   const [apps, setApps] = useState([]);
@@ -76,9 +77,9 @@ export default function Home() {
 
         
         <div className="flex justify-center mt-6">
-          <a href="/apps" className="btn btn-ghost bg-purple-600 text-white hover:bg-purple-700">
+        <Link to="/apps" className="btn btn-outline bg-purple-600 text-white hover:bg-purple-700">
             Show All
-          </a>
+          </Link>
         </div>
       </section>
     </div>

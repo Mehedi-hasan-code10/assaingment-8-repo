@@ -41,7 +41,7 @@ export default function AppDetails(){
     <div className="grid grid-cols-2 gap-6">
       <Toast message={toast} />
       <div>
-        <img src={app.image} alt={app.title} className="w-full h-96 object-cover rounded" />
+        <img src={app.image} alt={app.title} className="w-full object-cover rounded" />
         {/* এখানে ইমেজ— example.png */}
       </div>
       <div>
