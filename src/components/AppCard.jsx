@@ -3,14 +3,15 @@ import { Link } from 'react-router-dom'
 
 export default function AppCard({ app }){
   return (
-    <Link to={`/apps/${app.id}`} className="card card-compact bg-base-100 shadow hover:shadow-lg">
+    <Link to={`/apps/${app.id}`} className="card card-compact bg-base-100 shadow
+     hover:shadow-lg">
       <figure>
         <img
           src={app.image}
           alt={app.title}
-          className="w-full h-40 object-cover"
+          className="w-8/12 object-cover"
         />
-        {/* এখানে ইমেজ বসাও — example.png (public/placeholders/example.png) */}
+        
       </figure>
       <div className="card-body p-3">
         <h2 className="card-title text-sm">{app.title}</h2>

@@ -1,218 +1,239 @@
-[
+[ 
   {
-    "id": 1,
-    "image": "/placeholders/example.png",
-    "title": "SuperNotes",
-    "companyName": "NoteCorp",
-    "description": "Fast note taking app with sync and markdown support.",
-    "size": 25,
-    "reviews": 1240,
-    "ratingAvg": 4.5,
-    "downloads": 120000,
-    "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 540 }
-    ]
-  },
-  {
-    "id": 2,
-    "image": "/placeholders/example.png",
-    "title": "FitTrack",
-    "companyName": "HealthLab",
-    "description": "Activity tracker, workouts and nutrition planning.",
-    "size": 40,
-    "reviews": 980,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp LLC",
+    "id": 101,
+    "description": "A free messaging and video calling app. Simple, reliable, and private, it helps you easily stay in touch with friends.",
+    "size": 35.2,
+    "reviews": 181550123,
     "ratingAvg": 4.2,
-    "downloads": 90000,
+    "downloads": 5000000000,
     "ratings": [
-      { "name": "1 star", "count": 20 },
-      { "name": "2 star", "count": 30 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 480 }
+      { "name": "1 star", "count": 25100000 },
+      { "name": "2 star", "count": 10500000 },
+      { "name": "3 star", "count": 15800000 },
+      { "name": "4 star", "count": 28150123 },
+      { "name": "5 star", "count": 102000000 }
     ]
   },
   {
-    "id": 3,
-    "image": "/placeholders/example.png",
-    "title": "Pocket Painter",
-    "companyName": "Artly",
-    "description": "Simple drawing app with brushes and layers.",
-    "size": 55,
-    "reviews": 450,
-    "ratingAvg": 4.7,
-    "downloads": 45000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
+    "title": "Instagram",
+    "companyName": "Instagram",
+    "id": 102,
+    "description": "A simple way to capture and share the world’s moments. Follow friends and family to see what they are up to.",
+    "size": 42.8,
+    "reviews": 146234888,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 5 },
-      { "name": "2 star", "count": 10 },
-      { "name": "3 star", "count": 35 },
-      { "name": "4 star", "count": 140 },
-      { "name": "5 star", "count": 260 }
+      { "name": "1 star", "count": 14100000 },
+      { "name": "2 star", "count": 6200000 },
+      { "name": "3 star", "count": 10800000 },
+      { "name": "4 star", "count": 20134888 },
+      { "name": "5 star", "count": 95000000 }
     ]
   },
   {
-    "id": 4,
-    "image": "/placeholders/example.png",
-    "title": "Easy Budget",
-    "companyName": "MoneyWise",
-    "description": "Budgeting and expense tracking.",
-    "size": 18,
-    "reviews": 2100,
-    "ratingAvg": 4.1,
-    "downloads": 200000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 103,
+    "description": "Helping you connect and share with the people in your life. It's easy to keep up with friends and discover new things.",
+    "size": 65.1,
+    "reviews": 125112950,
+    "ratingAvg": 3.4,
+    "downloads": 5000000000,
     "ratings": [
-      { "name": "1 star", "count": 60 },
-      { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 300 },
-      { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 920 }
+      { "name": "1 star", "count": 35100000 },
+      { "name": "2 star", "count": 15200000 },
+      { "name": "3 star", "count": 14800000 },
+      { "name": "4 star", "count": 15012950 },
+      { "name": "5 star", "count": 45000000 }
     ]
   },
   {
-    "id": 5,
-    "image": "/placeholders/example.png",
-    "title": "PhotoCloud",
-    "companyName": "CloudSoft",
-    "description": "Photo backup and basic editor.",
-    "size": 80,
-    "reviews": 560,
-    "ratingAvg": 4.0,
-    "downloads": 80000,
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg",
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "id": 104,
+    "description": "A destination for short-form mobile videos. Our mission is to inspire creativity and bring joy to everyone around the world.",
+    "size": 85.5,
+    "reviews": 61450230,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 30 },
-      { "name": "2 star", "count": 40 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 200 },
-      { "name": "5 star", "count": 170 }
+      { "name": "1 star", "count": 4800000 },
+      { "name": "2 star", "count": 1900000 },
+      { "name": "3 star", "count": 3100000 },
+      { "name": "4 star", "count": 6650230 },
+      { "name": "5 star", "count": 45000000 }
     ]
   },
   {
-    "id": 6,
-    "image": "/placeholders/example.png",
-    "title": "Daily Focus",
-    "companyName": "Focusly",
-    "description": "Pomodoro timer and productivity stats.",
-    "size": 10,
-    "reviews": 300,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg",
+    "title": "Spotify: Music and Podcasts",
+    "companyName": "Spotify AB",
+    "id": 105,
+    "description": "Discover, manage and share over 82 million tracks, including more than 4 million podcast titles, for free. A world of music.",
+    "size": 30.0,
+    "reviews": 27890567,
     "ratingAvg": 4.6,
-    "downloads": 30000,
+    "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 4 },
-      { "name": "2 star", "count": 6 },
-      { "name": "3 star", "count": 30 },
-      { "name": "4 star", "count": 80 },
-      { "name": "5 star", "count": 180 }
+      { "name": "1 star", "count": 1900000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 3090567 },
+      { "name": "5 star", "count": 21000000 }
     ]
   },
   {
-    "id": 7,
-    "image": "/placeholders/example.png",
-    "title": "WeatherNow",
-    "companyName": "ClimaTech",
-    "description": "Fast weather forecasts and alerts.",
-    "size": 12,
-    "reviews": 1500,
-    "ratingAvg": 4.3,
-    "downloads": 150000,
-    "ratings": [
-      { "name": "1 star", "count": 30 },
-      { "name": "2 star", "count": 40 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 880 }
-    ]
-  },
-  {
-    "id": 8,
-    "image": "/placeholders/example.png",
-    "title": "RecipeBox",
-    "companyName": "KitchenPro",
-    "description": "Recipes, meal planner, and shopping list.",
-    "size": 22,
-    "reviews": 640,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 106,
+    "description": "Watch TV shows and movies recommended just for you, including award-winning Netflix original series, films, and documentaries anywhere you go.",
+    "size": 25.4,
+    "reviews": 15998741,
     "ratingAvg": 4.4,
-    "downloads": 72000,
+    "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 10 },
-      { "name": "2 star", "count": 20 },
-      { "name": "3 star", "count": 60 },
-      { "name": "4 star", "count": 180 },
-      { "name": "5 star", "count": 370 }
+      { "name": "1 star", "count": 1100000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 890000 },
+      { "name": "4 star", "count": 2508741 },
+      { "name": "5 star", "count": 11000000 }
     ]
   },
+ 
   {
-    "id": 9,
-    "image": "/placeholders/example.png",
-    "title": "KidsLearn",
-    "companyName": "EduKids",
-    "description": "Educational games for kids.",
-    "size": 35,
-    "reviews": 410,
-    "ratingAvg": 4.2,
-    "downloads": 47000,
-    "ratings": [
-      { "name": "1 star", "count": 8 },
-      { "name": "2 star", "count": 12 },
-      { "name": "3 star", "count": 40 },
-      { "name": "4 star", "count": 120 },
-      { "name": "5 star", "count": 230 }
-    ]
-  },
-  {
-    "id": 10,
-    "image": "/placeholders/example.png",
-    "title": "Travelly",
-    "companyName": "Wayfarer",
-    "description": "Trip planner and offline maps.",
-    "size": 95,
-    "reviews": 890,
-    "ratingAvg": 4.0,
-    "downloads": 98000,
-    "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 80 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 260 },
-      { "name": "5 star", "count": 300 }
-    ]
-  },
-  {
-    "id": 11,
-    "image": "/placeholders/example.png",
-    "title": "SleepWell",
-    "companyName": "RestLabs",
-    "description": "Sleep sounds and tracking.",
-    "size": 28,
-    "reviews": 370,
-    "ratingAvg": 4.5,
-    "downloads": 36000,
-    "ratings": [
-      { "name": "1 star", "count": 6 },
-      { "name": "2 star", "count": 10 },
-      { "name": "3 star", "count": 40 },
-      { "name": "4 star", "count": 100 },
-      { "name": "5 star", "count": 214 }
-    ]
-  },
-  {
-    "id": 12,
-    "image": "/placeholders/example.png",
-    "title": "TranslatorX",
-    "companyName": "LinguaTech",
-    "description": "Quick translations with offline packs.",
-    "size": 60,
-    "reviews": 1120,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 108,
+    "description": "An easy to use email app that saves you time and keeps your messages safe. Get messages instantly via push notifications.",
+    "size": 28.1,
+    "reviews": 9854123,
     "ratingAvg": 4.3,
-    "downloads": 110000,
+    "downloads": 5000000000,
     "ratings": [
-      { "name": "1 star", "count": 20 },
-      { "name": "2 star", "count": 30 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 620 }
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 650000 },
+      { "name": "4 star", "count": 1404123 },
+      { "name": "5 star", "count": 6500000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 109,
+    "description": "Watch, stream, and discover what the world is watching. From the hottest music videos to what’s popular in gaming and entertainment.",
+    "size": 40.5,
+    "reviews": 150234987,
+    "ratingAvg": 4.2,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 19000000 },
+      { "name": "2 star", "count": 8000000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 21234987 },
+      { "name": "5 star", "count": 90000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg",
+    "title": "X",
+    "companyName": "X Corp.",
+    "id": 110,
+    "description": "The trusted global digital town square for everyone. Join the conversation to find out what's happening and talk about it.",
+    "size": 72.3,
+    "reviews": 29876543,
+    "ratingAvg": 3.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 9000000 },
+      { "name": "2 star", "count": 4500000 },
+      { "name": "3 star", "count": 3800000 },
+      { "name": "4 star", "count": 2576543 },
+      { "name": "5 star", "count": 10000000 }
+    ]
+  },
+
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 112,
+    "description": "A pure instant messaging app. Simple, fast, secure, and synced across all your devices, with a focus on speed and privacy.",
+    "size": 39.0,
+    "reviews": 17890123,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1800000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1100000 },
+      { "name": "4 star", "count": 2390123 },
+      { "name": "5 star", "count": 12000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg",
+    "title": "Microsoft Word: Edit Documents",
+    "companyName": "Microsoft Corporation",
+    "id": 113,
+    "description": "The trusted Word app lets you create, edit, view, and share your files quickly and easily. A powerful mobile writing tool.",
+    "size": 95.7,
+    "reviews": 6812345,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 350000 },
+      { "name": "4 star", "count": 912345 },
+      { "name": "5 star", "count": 5000000 }
+    ]
+  },
+ 
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Photos_icon_%282020%29.svg",
+    "title": "Google Photos",
+    "companyName": "Google LLC",
+    "id": 119,
+    "description": "A smarter home for all your photos and videos, made for the way you take photos today. Storage and organization solved.",
+    "size": 63.0,
+    "reviews": 60123456,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 4100000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 2900000 },
+      { "name": "4 star", "count": 6623456 },
+      { "name": "5 star", "count": 45000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png",
+    "title": "Uber - Request a ride",
+    "companyName": "Uber Technologies, Inc.",
+    "id": 120,
+    "description": "We’re committed to your safety at Uber. We’ve established a Door-to-Door Safety Standard to help you feel safe every time.",
+    "size": 88.6,
+    "reviews": 14567890,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 1400000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1100000 },
+      { "name": "4 star", "count": 1467890 },
+      { "name": "5 star", "count": 10000000 }
     ]
   }
 ]

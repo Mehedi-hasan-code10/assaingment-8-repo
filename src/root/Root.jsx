@@ -1,16 +1,120 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
 
-export default function Root(){
+//kono loading nai...
+
+// import React from 'react'
+// import { Outlet } from 'react-router-dom'
+// import Header from '../components/Header'
+// import Footer from '../components/Footer'
+
+// export default function Root(){
+//   return (
+//     <div className="min-h-screen flex flex-col">
+//       <Header />
+//       <main className="flex-1 container mx-auto px-4 py-6">
+//         <Outlet />
+//       </main>
+//       <Footer />
+//     </div>
+//   )
+// }
+
+//sob kisu loading.......... 
+
+// import React, { useState, useEffect } from 'react';
+// import { Outlet, useLocation } from 'react-router-dom';
+// import Header from '../components/Header';
+// import Footer from '../components/Footer';
+
+// export default function Root() {
+//   const [loading, setLoading] = useState(false);
+//   const location = useLocation();
+
+//   // route change হলে loading 
+//   useEffect(() => {
+//     setLoading(true);
+//     const timer = setTimeout(() => setLoading(false), 500); // 2 sec
+//     return () => clearTimeout(timer);
+//   }, [location.pathname]);
+
+//   return (
+//     <div className="min-h-screen flex flex-col">
+//       <Header />
+
+//       {/* main content area */}
+//       <main className="flex-1 container mx-auto px-4 py-6 relative">
+//         {/* Outlet fade হবে */}
+//         <div
+//           className={`transition-opacity duration-300 ${
+//             loading ? 'opacity-30 pointer-events-none' : 'opacity-100'
+//           }`}
+//         >
+//           <Outlet />
+//         </div>
+
+//         {/* Loading overlay শুধু main content এর উপর */}
+//         {loading && (
+//           <div className="absolute inset-0 flex flex-col items-center justify-center bg-white/60 backdrop-blur-sm rounded-lg">
+//             <span className="loading loading-spinner loading-lg text-purple-700"></span>
+//             <p className="mt-2 text-purple-600 font-semibold text-sm">Loading...</p>
+//           </div>
+//         )}
+//       </main>
+
+//       <Footer />
+//     </div>
+//   );
+// }
+
+
+//only home apps installation e loading......
+
+import React, { useState, useEffect } from 'react';
+import { Outlet, useLocation } from 'react-router-dom';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+
+export default function Root() {
+  const [loading, setLoading] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => {
+    
+    const allowedPaths = ['/', '/apps', '/installation'];
+
+    if (allowedPaths.includes(location.pathname)) {
+      setLoading(true);
+      const timer = setTimeout(() => setLoading(false), 500);
+      return () => clearTimeout(timer);
+    } else {
+     
+      setLoading(false);
+    }
+  }, [location.pathname]);
+
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-1 container mx-auto px-4 py-6">
-        <Outlet />
+
+      <main className="flex-1 container mx-auto px-4 py-6 relative">
+      
+        <div
+          className={`transition-opacity duration-300 ${
+            loading ? 'opacity-30 pointer-events-none' : 'opacity-100'
+          }`}
+        >
+          <Outlet />
+        </div>
+
+        
+        {loading && (
+          <div className="absolute inset-0 flex flex-col items-center justify-center bg-white/60 backdrop-blur-sm rounded-lg">
+            <span className="loading loading-spinner loading-lg text-purple-700"></span>
+            <p className="mt-2 text-purple-600 font-semibold text-sm">Loading...</p>
+          </div>
+        )}
       </main>
+
       <Footer />
     </div>
-  )
+  );
 }

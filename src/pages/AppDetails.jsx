@@ -4,7 +4,7 @@ import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recha
 import Toast from '../components/Toast'
 
 export default function AppDetails(){
-  const app = useLoaderData() // if you used loader in route
+  const app = useLoaderData() 
   const navigate = useNavigate()
   const [installed, setInstalled] = useState(false)
   const [toast, setToast] = useState('')
@@ -42,7 +42,7 @@ export default function AppDetails(){
       <Toast message={toast} />
       <div>
         <img src={app.image} alt={app.title} className="w-full h-96 object-cover rounded" />
-        {/* এখানে ইমেজ বসাও — example.png */}
+        {/* এখানে ইমেজ— example.png */}
       </div>
       <div>
         <h1 className="text-2xl font-bold">{app.title}</h1>

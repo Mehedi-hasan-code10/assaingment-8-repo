@@ -10,7 +10,7 @@ import MyInstallation from './pages/MyInstallation'
 import ErrorPage from './pages/ErrorPage'
 import './index.css'
 
-// loaders to fetch apps list (from public/data/apps.json)
+
 async function appsLoader() {
   const res = await fetch('/data/apps.json')
   if (!res.ok) throw new Response('Failed to load apps', { status: res.status })
@@ -31,7 +31,7 @@ const router = createBrowserRouter([
     path: '/',
     element: <Root />,
     errorElement: <RootError />,
-    loader: appsLoader, // optional: root can load all apps once
+    loader: appsLoader,
     children: [
       { index: true, element: <Home />, loader: appsLoader },
       { path: 'apps', element: <AllApps />, loader: appsLoader },

@@ -6,8 +6,9 @@ export default function RootError(){
   console.error(err)
   return (
     <div className="p-16 text-center">
-      <h1 className="text-3xl font-bold">Something went wrong</h1>
-      <p className="mt-4">Router error: {err.statusText || err.message || 'Unknown error'}</p>
+      {/* <h1 className="text-3xl font-bold">Something went wrong</h1> */}
+      <img src='/src/assets/App-Error.png' alt="App Error" className="w-64 h-64 mx-auto mb-4" />
+      <p className="mt-4">Router error: {err.statusText || err.message || 'App Not Founded'}</p>
       <Link to="/" className="btn mt-6">Go Home</Link>
     </div>
   )
