@@ -42,7 +42,8 @@ export default function AllApps() {
       </div>
       
       <div className="flex flex-col md:flex-row justify-between items-center gap-4 mb-4">
-        <div className="font-bold text-xl">{filtered.length} apps Found</div>
+        {/* <div className="font-bold text-xl">{filtered.length} apps Found</div> */}
+         <div className="font-bold text-xl">({filtered.length}) apps Found</div>
 
         <input
           type="text"

@@ -38,6 +38,8 @@ const router = createBrowserRouter([
       { path: 'apps/:id', element: <AppDetails />, loader: appByIdLoader },
       { path: 'installation', element: <MyInstallation /> },
       { path: '*', element: <ErrorPage /> }
+      // 
+      
     ]
   }
 ])

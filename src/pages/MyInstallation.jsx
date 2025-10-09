@@ -203,7 +203,7 @@ export default function MyInstallation() {
       {/* Sorting + Total Installed */}
       <div className="flex flex-col sm:flex-row justify-between items-center mb-4 gap-3">
         <p className="text-xl font-bold">  
-          <span className="font-bold ">{filteredInstalled.length}</span> 
+          <span className="font-bold ">({filteredInstalled.length})</span> 
             Apps Found{' '}
         </p>
 

@@ -83,7 +83,8 @@ export default function Header() {
       
       
       <div className="flex-1 flex items-center">
-        <NavLink to="/" className="btn btn-ghost normal-case md:text-xl text-purple-600 flex items-center gap-2 text-xs ">
+          <NavLink to="/" className="btn btn-ghost normal-case md:text-xl text-transparent
+         bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2] flex items-center gap-2 text-xs font-bold ">
           <img className="w-12 h-12" src="/logo.png" alt="Logo" />
           HERO.IO
         </NavLink>
@@ -114,7 +115,7 @@ export default function Header() {
       
       <div className="flex-1 flex justify-end">
         <a
-          className="btn btn-outline bg-purple-600 text-white hover:bg-purple-700 ml-2 text-xs"
+          className="btn btn-outline bg-gradient-to-r from-[#632EE3] to-[#9F62F2]  text-white hover:bg-purple-700 ml-2 text-lg"
           href="https://github.com/Mehedi-hasan-code10"
           target="_blank"
           rel="noreferrer"

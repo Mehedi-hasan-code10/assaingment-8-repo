@@ -26,13 +26,13 @@ export default function Home() {
 <section className=" text-center mb-10 mt-16">
   
   
-  <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-800">
+  <h1 className="text-xl sm:text-4xl lg:text-7xl font-extrabold text-gray-800">
     We Build<br></br>
-<span className='text-purple-600'>Productive</span> Apps
+<span className='text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2] '>Productive</span> Apps
   </h1>
 
   
-        <p className="mt-4 text-gray-600 text-base sm:text-lg md:text-xl max-w-3xl mx-auto">
+        <p className="mt-6 text-gray-600 text-base sm:text-lg md:text-xl max-w-3xl mx-auto">
           
     we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.ur goal is to turn your ideas into digital experiences that truly make an impact
   </p>
@@ -43,7 +43,7 @@ export default function Home() {
       href="https://play.google.com"
       target="_blank"
       rel="noreferrer"
-      className="btn btn-outline px-6 sm:px-8 shadow-md"
+      className="btn border border-[#ddd] px-6 sm:px-8 shadow-md"
     >  <img src='/playstore-removebg-preview.png' className='w-8 h-8'></img>
       Play Store
           </a>
@@ -52,7 +52,7 @@ export default function Home() {
       href="https://apps.apple.com"
       target="_blank"
       rel="noreferrer"
-      className="btn btn-outline px-6 sm:px-8 shadow-md"
+      className="btn border border-[#ddd] px-6 sm:px-8 shadow-md"
           >
             <img src='/app_store_2-removebg-preview.png' className='w-8 h-8'></img>
       App Store
@@ -120,7 +120,7 @@ export default function Home() {
 
         
         <div className="flex justify-center mt-6">
-        <Link to="/apps" className="btn btn-outline bg-purple-600 text-white hover:bg-purple-700">
+        <Link to="/apps" className="btn btn-outline text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2] hover:bg-purple-700">
             Show All
           </Link>
         </div>
