@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react'
 import { useLoaderData, useNavigate } from 'react-router-dom'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts'
 
-// Toast Component
+// Toast Component 
 function Toast({ message }) {
   if (!message) return null
   return (
@@ -38,6 +38,11 @@ export default function AppDetails() {
       </div>
     )
   }
+
+  // if (!app.id) {
+  //   return <h1>error</h1>
+  // }
+  // console.log(app.id);
 
   const handleInstall = () => {
     const list = JSON.parse(localStorage.getItem('installedApps') || '[]')
