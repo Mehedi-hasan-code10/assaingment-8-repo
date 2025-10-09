@@ -85,7 +85,7 @@ export default function Header() {
       <div className="flex-1 flex items-center">
           <NavLink to="/" className="btn btn-ghost normal-case md:text-xl text-transparent
          bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2] flex items-center gap-2 text-xs font-bold ">
-          <img className="w-12 h-12" src="/logo.png" alt="Logo" />
+          <img className="w-6 h-6  md:w-12 md:h-12" src="/logo.png" alt="Logo" />
           HERO.IO
         </NavLink>
       </div>
@@ -96,7 +96,7 @@ export default function Header() {
           className="btn btn-square btn-ghost"
           onClick={() => setMenuOpen(!menuOpen)}
         >
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none"
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-5" fill="none"
                viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                   d="M4 6h16M4 12h16M4 18h16" />
@@ -115,11 +115,12 @@ export default function Header() {
       
       <div className="flex-1 flex justify-end">
         <a
-          className="btn btn-outline bg-gradient-to-r from-[#632EE3] to-[#9F62F2]  text-white hover:bg-purple-700 ml-2 text-lg"
+            className="btn px-2  bg-gradient-to-r from-[#632EE3] to-[#9F62F2]  text-white
+           hover:bg-purple-700 ml-4 "
           href="https://github.com/Mehedi-hasan-code10"
           target="_blank"
           rel="noreferrer"
-        > <img className='w-8 h-8 mr-1' src="/github-removebg-preview.png" />
+        > <img className=' w-8 h-8 mr-1' src="/github-removebg-preview.png" />
           Contribute
         </a>
       </div>

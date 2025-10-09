@@ -65,7 +65,7 @@ export default function Home() {
     <img 
       src="/hero.png"
       alt="App showcase"
-      className="w-64 sm:w-80 lg:w-[900px] rounded-xl drop-shadow-lg"
+      className="w-64 sm:w-80 md:w-[650px] lg:w-[900px] rounded-xl drop-shadow-lg"
     />
         </div>
         

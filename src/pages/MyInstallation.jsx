@@ -187,7 +187,7 @@ export default function MyInstallation() {
     <div className="relative w-11/12 mx-auto">
       {/* Header */}
       <div className="mb-6 text-center mt-10">
-        <h1 className="text-3xl font-bold mb-2">Your Installed Apps</h1>
+        <h1 className="text-5xl font-bold mb-2">Your Installed Apps</h1>
         <p className="text-gray-400">Explore all trending apps developed by us</p>
       </div>
 
