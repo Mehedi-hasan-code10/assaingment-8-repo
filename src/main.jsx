@@ -36,6 +36,7 @@ const router = createBrowserRouter([
       { index: true, element: <Home />, loader: appsLoader },
       { path: 'apps', element: <AllApps />, loader: appsLoader },
       { path: 'apps/:id', element: <AppDetails />, loader: appByIdLoader },
+      
       { path: 'installation', element: <MyInstallation /> },
       { path: '*', element: <ErrorPage /> }
       // 

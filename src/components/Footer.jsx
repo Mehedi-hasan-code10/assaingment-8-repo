@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="mt-12 bg-base-200 text-base-content">
       <footer className="w-11/12 mx-auto py-10 flex flex-col sm:flex-row sm:flex-wrap justify-between gap-8 text-center sm:text-left">
         
-        {/* Services */}
+    
         <nav className="flex-1 min-w-[200px]">
           <h6 className="footer-title font-semibold mb-3">Services</h6>
           <a className="link link-hover block">Branding</a>
@@ -14,7 +14,7 @@ const Footer = () => {
           <a className="link link-hover block">Advertisement</a>
         </nav>
 
-        {/* Company */}
+       
         <nav className="flex-1 min-w-[200px]">
           <h6 className="footer-title font-semibold mb-3">Company</h6>
           <a className="link link-hover block">About us</a>
@@ -23,7 +23,6 @@ const Footer = () => {
           <a className="link link-hover block">Press kit</a>
         </nav>
 
-        {/* Legal */}
         <nav className="flex-1 min-w-[200px]">
           <h6 className="footer-title font-semibold mb-3">Legal</h6>
           <a className="link link-hover block">Terms of use</a>
@@ -31,7 +30,7 @@ const Footer = () => {
           <a className="link link-hover block">Cookie policy</a>
         </nav>
 
-        {/* Newsletter */}
+        
         <form className="flex-1 min-w-[250px]">
           <h6 className="footer-title font-semibold mb-3">Newsletter</h6>
           <fieldset>
@@ -48,7 +47,7 @@ const Footer = () => {
         </form>
       </footer>
 
-      {/* Bottom Credit Line */}
+     
       <div className="text-center text-gray-500 text-sm py-4 border-t border-gray-300">
         © {new Date().getFullYear()} <span className="font-semibold text-gray-700">NoteCorp</span>. All rights reserved.
       </div>
