@@ -1,6 +1,9 @@
 
+
 import React, { useState, useEffect, useMemo } from 'react';
 import AppCard from '../components/AppCard';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
 export default function AllApps() {
   const [apps, setApps] = useState([]);
@@ -8,7 +11,6 @@ export default function AllApps() {
   const [fetchLoading, setFetchLoading] = useState(true);
   const [searchLoading, setSearchLoading] = useState(false);
 
-  
   useEffect(() => {
     fetch('/data/apps.json')
       .then(res => res.json())
@@ -17,7 +19,6 @@ export default function AllApps() {
       .finally(() => setFetchLoading(false));
   }, []);
 
- 
   useEffect(() => {
     if (query.trim() === '') {
       setSearchLoading(false);
@@ -28,18 +29,12 @@ export default function AllApps() {
     return () => clearTimeout(timeout);
   }, [query]);
 
-  
   const handleSearchChange = (e) => {
     let value = e.target.value;
-
-  
     if (value.startsWith(' ')) return;
-
-   
     setQuery(value);
   };
 
- 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     return apps.filter(a => a.title.toLowerCase().includes(q));
@@ -47,7 +42,7 @@ export default function AllApps() {
 
   return (
     <div className='w-11/12 mx-auto mt-16'>
-  
+
       <div className='mb-4 text-center'>
         <h1 className='text-5xl font-bold mb-4'>Our All Applications</h1>
         <p className='text-gray-400'>
@@ -55,20 +50,25 @@ export default function AllApps() {
         </p>
       </div>
 
-    
       <div className="flex flex-col md:flex-row justify-between items-center gap-4 mb-4">
         <div className="font-bold text-xl">({filtered.length}) apps Found</div>
 
-        <input
-          type="text"
-          placeholder="Search apps..."
-          value={query}
-          onChange={handleSearchChange}
-          className="input input-bordered w-[300px] relative z-20"
-        />
+       
+        <div className="relative w-[300px]">
+          <input 
+            type="text"
+            placeholder="Search apps..."
+            value={query}
+            onChange={handleSearchChange}
+            className="input input-bordered w-full pl-10"
+          />
+          <FontAwesomeIcon 
+            icon={faMagnifyingGlass} 
+            className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-lg"
+          />
+        </div>
       </div>
 
-     
       <div className="relative">
         {(fetchLoading || searchLoading) && (
           <div className="absolute inset-0 flex flex-col justify-center items-center bg-white/60 backdrop-blur-sm z-10">
